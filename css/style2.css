@@ -1,0 +1,202 @@
+body {
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+}
+
+.navbar {
+    background-color: #0a192f;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 8px 16px;
+    background-color: #0284c7;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover, .navbar a.active {
+    background-color: #0369a1;
+}
+
+.cyber-header {
+    background: linear-gradient(135deg, #0a192f 0%, #0284c7 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 20px;
+    border-bottom: 4px solid #00f5d4;
+}
+
+.cyber-header h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.cyber-header p {
+    margin-top: 12px;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #e0f2fe;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    color: #0a192f;
+    text-align: center;
+    border-bottom: 3px solid #0284c7;
+    padding-bottom: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+    line-height: 1.6;
+    color: #334155;
+}
+
+.custom-list {
+    line-height: 1.8;
+    color: #334155;
+    font-family: Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.custom-list li {
+    margin-bottom: 12px;
+}
+
+.custom-list strong {
+    color: #0369a1;
+}
+
+.links-list {
+    line-height: 2;
+    font-family: Arial, sans-serif;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.links-list a {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links-list a:hover {
+    text-decoration: underline;
+}
+
+.media-figure {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.media-figure figcaption {
+    font-size: 0.9rem;
+    color: #64748b;
+    font-style: italic;
+    margin-top: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.img-small {
+    width: 350px;
+    border-radius: 8px;
+    border: 2px solid #0284c7;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.15);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 1px solid #cbd5e1;
+    margin-top: 15px;
+    color: #1e293b;
+    font-size: 0.95rem;
+}
+
+.data-table th, 
+.data-table td {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+.header-primary {
+    background-color: #0a192f;
+    color: #ffffff;
+}
+
+.header-primary th {
+    padding: 12px;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.header-secondary {
+    background-color: #0284c7;
+    color: #ffffff;
+}
+
+.row-alt {
+    background-color: #f1f5f9;
+}
+
+.font-bold {
+    font-weight: bold;
+    color: #0a192f;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #cbd5e1;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.main-footer {
+    background-color: #0a192f;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 10px;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    border-top: 3px solid #0284c7;
+}
+
+.main-footer p {
+    margin: 0 0 10px 0;
+    font-size: 0.95rem;
+    font-family: Arial, sans-serif;
+}
+
+.main-footer address {
+    font-style: normal;
+    font-size: 0.85rem;
+    color: #38bdf8;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}

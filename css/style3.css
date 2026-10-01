@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #0d1117; /* Azul/gris cyber muy oscuro */
+    background-color: #0d1117; 
     color: #e6edf3;
     line-height: 1.6;
 }
@@ -19,7 +19,7 @@ nav {
 }
 
 nav a {
-    color: #00f0ff; /* Cian neón robótico */
+    color: #00f0ff;
     margin: 0 15px;
     padding: 6px 12px;
     text-decoration: none;
@@ -34,7 +34,6 @@ nav a:hover, nav a.active {
     background-color: #0056b3;
 }
 
-/* Encabezado Principal */
 header {
     background: linear-gradient(135deg, #091e3a 0%, #203a43 50%, #2c5364 100%);
     color: #ffffff;
@@ -73,7 +72,7 @@ section:last-of-type {
 }
 
 h2 {
-    color: #00f0ff; /* Azul brillante tecnológico */
+    color: #00f0ff; 
     margin-bottom: 15px;
     border-bottom: 2px solid #0056b3;
     display: inline-block;
